@@ -1,0 +1,103 @@
+*{
+ border: 5px;
+ margin: 0;
+ padding: 0;
+}
+#one h1{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+#one i{
+    float: left;
+}
+   @media(max-width:500px){
+        #one{ width: 100%;} 
+   }
+   
+
+
+#two{
+    width: 100%;
+}
+@media (max-width:500px) {
+     #two{width: 100%;}
+}
+
+
+section#three{
+    overflow: hidden;
+    display: inline-block;
+    
+}
+#three .three{
+    background-color: whitesmoke;
+    color: black;
+    float: left;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+}
+#three .three h3{
+    text-align: center;
+    padding: 10px;
+}
+#three .three p{
+    text-transform: capitalize;
+}
+#three .three2{
+    float: right;
+    width: 50%;
+}
+
+@media(max-width:500px){
+    #three .three {width:100%;}
+}
+@media(max-width:500px){
+   #three .three2 {width: 100%;}
+}
+
+
+
+#four{
+    overflow: hidden;
+    background-color: black;
+    display: inline-block;
+}
+#four h1{
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px;
+}
+.four{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.four2{
+  float: right;
+  width: 40%;
+  color: whitesmoke;
+}
+  @media(max-width:500px) {
+    #four .four{
+       width: 100%;
+    }
+ }
+ @media(max-width:500px) {
+    #four .four2{
+       width: 100%;
+    }
+ }
+ 
+ 
+
+#five{
+    padding: 15px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
